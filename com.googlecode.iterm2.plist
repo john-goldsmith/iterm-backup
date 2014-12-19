@@ -676,13 +676,15 @@
 	<key>FocusFollowsMouse</key>
 	<false/>
 	<key>FsTabDelay</key>
-	<real>1.0762858390808105</real>
+	<real>1.0680501461029053</real>
 	<key>HiddenAFRStrokeThickness</key>
 	<real>0.0</real>
 	<key>HiddenAdvancedFontRendering</key>
 	<false/>
 	<key>HideActivityIndicator</key>
 	<false/>
+	<key>HideMenuBarInFullscreen</key>
+	<true/>
 	<key>HideScrollbar</key>
 	<true/>
 	<key>HideTab</key>
@@ -714,19 +716,34 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Sites/sandbox/iterm-backup</string>
+	<string>~/Sites/iterm-backup</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
+	<key>NSTableView Columns KeyBingingTable</key>
+	<array>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATCG
+		</data>
+		<string>198</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATGG
+		</data>
+		<string>319</string>
+	</array>
+	<key>NSTableView Hidden Columns KeyBingingTable</key>
+	<array/>
+	<key>NSTableView Sort Ordering KeyBingingTable</key>
+	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>149 344 924 485 0 0 1680 1028 </string>
+	<string>269 162 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1680 1028 0 0 1680 1028 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>250 73 650 473 0 0 1680 1028 </string>
+	<string>0 4 1440 873 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1299,7 +1316,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>0</integer>
 			<key>Scrollback With Status Bar</key>
 			<false/>
 			<key>Scrollback in Alternate Screen</key>
@@ -1443,7 +1460,7 @@
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
-			<false/>
+			<true/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -1462,6 +1479,8 @@
 			<string>/Users/jgoldsmith</string>
 		</dict>
 	</array>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1508,17 +1527,19 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/jgoldsmith/Sites/sandbox/iterm-backup</string>
+	<string>/Users/jgoldsmith/Sites/iterm-backup</string>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
-	<true/>
+	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
 	<false/>
 	<key>RightCommand</key>
 	<integer>8</integer>
 	<key>RightOption</key>
 	<integer>3</integer>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedURL</key>
@@ -1526,7 +1547,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-03-24T17:46:22Z</date>
+	<date>2014-12-18T06:17:49Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1572,6 +1593,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>1.0.0.20130622</string>
+	<string>2.0</string>
 </dict>
 </plist>
